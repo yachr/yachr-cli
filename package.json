@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "package": "pkg dist/index.js --out-path bin",
+    "compile": "npm run build && npm run package"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "yachr": "^0.1.1"
+    "yachr": "^0.1.1",
+    "yargs": "^13.2.2"
   },
   "devDependencies": {
+    "@types/yargs": "^13.0.0",
     "eclint": "^2.8.1",
+    "pkg": "^4.3.7",
     "tslint": "^5.16.0",
     "typescript": "^3.4.4"
   }
