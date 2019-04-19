@@ -11,5 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "yachr": "^0.1.1"
+  },
+  "devDependencies": {
+    "eclint": "^2.8.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
   }
 }
