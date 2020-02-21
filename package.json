@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "yachr": "^0.1.1",
+    "yachr": "^0.1.10",
     "yargs": "^13.2.2"
   },
   "devDependencies": {
